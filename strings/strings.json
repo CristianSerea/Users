@@ -1,0 +1,14 @@
+{
+    "Home": "Home",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Address": "Address",
+    "Company": "Company",
+    "UserName": "User name",
+    "Username": "Username",
+    "PreviousUser": "< Previous user",
+    "NextUser": "Next user >",
+    "LoadingData": "Loading data",
+    "NoUsers": "No users available at this time",
+    "InvalidResponse": "Invalid network request response format"
+}

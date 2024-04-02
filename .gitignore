@@ -1,0 +1,103 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+jetificableGroups.json
+
+# Visual Studio Code
+#
+.vscode/
+
+# node.js
+#
+node_modules/
+vendor/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+*/fastlane/Gemfile.lock
+fastlane/Gemfile.lock
+
+#bugsnag
+*.bundle.map
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Build config files
+/ios/Configuration/appkey.json
+/ios/Configuration/*.p8
+/ios/Configuration/xcconfig/env.xcconfig
+
+# environment variables
+*.aab
+
+*.apk
+GTM-*.json
+
+# Jest
+report.*.json
+coverage/*
+
+google_play.json
+keystore.properties
+
+config.json
+env/
+*.bundle
+.eslintcache

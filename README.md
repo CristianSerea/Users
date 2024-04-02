@@ -1,5 +1,10 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+This app comprises two screens: "Users" and "User Details." 
+The "Users" screen presents a list of users, retrieved either from an API or local storage for offline data availability. It utilizes a FlatList to showcase user information within a two-column card layout. Selecting a card navigates to the "User Details" screen, which offers a summary of the user's data along with two buttons to navigate through to the next or previous user's details, where available.
+
+The application's structure leverages Redux Toolkit, Thunk middleware, React Navigation, and AsyncStorage. It includes a series of unit tests covering both layout and logic aspects. The development is carried out using TypeScript and React Native version 0.73.6.
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.

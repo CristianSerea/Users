@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabBarIcon tests Renders tab bar icon 1`] = `
+<Image
+  source={
+    {
+      "testUri": "../../../src/assets/home.png",
+    }
+  }
+  style={
+    [
+      {
+        "height": 22,
+        "width": 22,
+      },
+      {
+        "tintColor": "#008000",
+      },
+    ]
+  }
+  testID="TabBarIcon"
+/>
+`;
+
+exports[`TabBarIcon tests Test tab bar icon rendering 1`] = `
+<Image
+  source={
+    {
+      "testUri": "../../../src/assets/home.png",
+    }
+  }
+  style={
+    [
+      {
+        "height": 22,
+        "width": 22,
+      },
+      {
+        "tintColor": "#008000",
+      },
+    ]
+  }
+  testID="TabBarIcon"
+/>
+`;

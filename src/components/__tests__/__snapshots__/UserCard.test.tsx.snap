@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard tests Renders user card 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 10,
+      "elevation": 5,
+      "flex": 1,
+      "marginBottom": 20,
+      "marginLeft": 20,
+      "marginRight": 0,
+      "opacity": 1,
+      "padding": 10,
+      "shadowColor": "#000000",
+      "shadowOffset": {
+        "height": 2,
+        "width": 2,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 5,
+    }
+  }
+  testID="UserCard-1"
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Leanne Graham
+  </Text>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Email-Sincere@april.biz"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Email
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="Sincere@april.biz"
+    >
+      Sincere@april.biz
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Phone-1-770-736-8031 x56442"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Phone
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="1-770-736-8031 x56442"
+    >
+      1-770-736-8031 x56442
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Address-Kulas Light Gwenborough 92998-3874"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Address
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="Kulas Light Gwenborough 92998-3874"
+    >
+      Kulas Light Gwenborough 92998-3874
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Company-Romaguera-Crona"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Company
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="Romaguera-Crona"
+    >
+      Romaguera-Crona
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UserCard tests Test user card rendering 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 10,
+      "elevation": 5,
+      "flex": 1,
+      "marginBottom": 20,
+      "marginLeft": 20,
+      "marginRight": 0,
+      "opacity": 1,
+      "padding": 10,
+      "shadowColor": "#000000",
+      "shadowOffset": {
+        "height": 2,
+        "width": 2,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 5,
+    }
+  }
+  testID="UserCard-1"
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Leanne Graham
+  </Text>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Email-Sincere@april.biz"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Email
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="Sincere@april.biz"
+    >
+      Sincere@april.biz
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Phone-1-770-736-8031 x56442"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Phone
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="1-770-736-8031 x56442"
+    >
+      1-770-736-8031 x56442
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Address-Kulas Light Gwenborough 92998-3874"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Address
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="Kulas Light Gwenborough 92998-3874"
+    >
+      Kulas Light Gwenborough 92998-3874
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 10,
+      }
+    }
+    testID="Company-Romaguera-Crona"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Company
+      :
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 15,
+          },
+        ]
+      }
+      testID="Romaguera-Crona"
+    >
+      Romaguera-Crona
+    </Text>
+  </View>
+</View>
+`;

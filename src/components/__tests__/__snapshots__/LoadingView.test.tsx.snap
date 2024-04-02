@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingView tests Renders loading view 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="LoadingView"
+>
+  <Text
+    style={
+      {
+        "fontSize": 15,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Loading data
+    ...
+  </Text>
+  <ActivityIndicator
+    color="#008000"
+    style={
+      {
+        "marginTop": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`LoadingView tests Test loading view rendering 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="LoadingView"
+>
+  <Text
+    style={
+      {
+        "fontSize": 15,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Loading data
+    ...
+  </Text>
+  <ActivityIndicator
+    color="#008000"
+    style={
+      {
+        "marginTop": 20,
+      }
+    }
+  />
+</View>
+`;

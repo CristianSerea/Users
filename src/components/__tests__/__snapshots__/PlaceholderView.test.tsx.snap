@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceholderView tests Renders placeholder view 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="PlaceholderView"
+>
+  <Text
+    style={
+      {
+        "fontSize": 15,
+        "fontWeight": "600",
+      }
+    }
+    testID="Test"
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`PlaceholderView tests Test placeholder view rendering 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="PlaceholderView"
+>
+  <Text
+    style={
+      {
+        "fontSize": 15,
+        "fontWeight": "600",
+      }
+    }
+    testID="Test"
+  >
+    Test
+  </Text>
+</View>
+`;
